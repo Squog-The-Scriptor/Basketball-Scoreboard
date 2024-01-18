@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+    width: 600px;
     margin-top: 36px;
     margin-bottom: 0px;
     display: flex;
