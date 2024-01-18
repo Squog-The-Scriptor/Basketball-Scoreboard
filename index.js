@@ -19,7 +19,7 @@ function plusTwo() {
 
 function plusThree() {
     homeScore += 3
-    guestEl.textContent = homeScore
+    homeEl.textContent = homeScore
 }
 
 /* Guest Tracker*/
@@ -43,6 +43,8 @@ function plusThreeG() {
 
 /* reset function */
 function reset() {
+    guestScore = 0
+    homeScore = 0
     guestEl.textContent = 0
     homeEl.textContent = 0
 }
