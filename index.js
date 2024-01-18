@@ -40,6 +40,8 @@ function plusThreeG() {
     guestEl.textContent = guestScore
 }
 
+
+/* reset function */
 function reset() {
     guestEl.textContent = 0
     homeEl.textContent = 0
