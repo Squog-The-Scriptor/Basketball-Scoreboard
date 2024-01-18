@@ -48,3 +48,12 @@ function reset() {
     guestEl.textContent = 0
     homeEl.textContent = 0
 }
+
+window.plusOne = plusOne
+window.plusTwo = plusTwo
+window.plusThree = plusThree
+
+window.plusOneG = plusOneG
+window.plusTwoG = plusTwoG
+window.plusThreeG = plusThreeG
+window.reset = reset
