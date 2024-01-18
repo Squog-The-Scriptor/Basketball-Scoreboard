@@ -1,0 +1,86 @@
+@font-face {
+  font-family: CursedTimer;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    margin-top: 36px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-title {
+    font-size: 25px;
+    color: rgba(238, 238, 238, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score-box {
+    display: flex;
+    justify-content: center;
+    font-family: CursedTimer;
+    background-color: rgba(8, 0, 1, 1);
+    width: 150px;
+    height: 120px;
+    color: #F94F6D;
+    font-size: 90px;
+    border: 3px solid goldenrod;
+}
+
+#home-score, #guest-score {
+    margin: 0 auto;
+    padding-top: 15px;
+    
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.btn {
+    font-size: 16px;
+    font-family: CursedTimer;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(154, 171, 216, 1);
+    color: rgba(154, 171, 216, 1);
+    cursor: pointer;
+    transition: 0.75ms;
+}
+
+.btn:hover {
+    color: green;
+    border: 1px solid green;
+}
+
+#reset-btn {
+    font-size: 20px;
+    background-color: rgba(8, 0, 1, 1);
+    margin-top: 40px;
+    font-family: CursedTimer;
+    color: #F94F6D;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.75ms;
+    filter: drop-shadow(0 0 0.25rem #F94F6D);
+}
+
+
+#reset-btn:hover {
+    color: white;
+    background-color: green;
+}
